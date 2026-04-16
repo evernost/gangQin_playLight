@@ -1,2 +1,2 @@
-# gangQin_playLight
-A custom made LED light strip extension for the gangQin app.
+# PlayLight for gangQin
+This repository contains the hardware design project for the LED light strip that goes with the gangQin app.
