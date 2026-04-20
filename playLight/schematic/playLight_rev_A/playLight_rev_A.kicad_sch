@@ -6,7 +6,9 @@
 	(paper "A3")
 	(title_block
 		(title "gangQin Playlight")
+		(date "20 April 2026")
 		(rev "Rev A")
+		(company "QuBi")
 	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x01"
@@ -5385,7 +5387,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "2.2k"
 			(at 119.38 64.7699 0)
 			(effects
 				(font
@@ -6312,7 +6314,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "2.2k"
 			(at 132.08 64.7699 0)
 			(effects
 				(font
@@ -7201,7 +7203,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "1k"
 			(at 173.99 180.3399 0)
 			(effects
 				(font
