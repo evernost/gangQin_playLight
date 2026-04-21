@@ -2191,6 +2191,52 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 38.1 57.15)
+		(end 137.16 68.58)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 291c6cbf-ffbb-43be-82a6-1328bf35e436)
+	)
+	(rectangle
+		(start 165.1 199.39)
+		(end 245.11 217.17)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ca8ff326-1e45-4d72-8520-65a61a7b692e)
+	)
+	(text "R = K*V_REF / I_MAX\nK     = 105 (constant)\nV_REF = 0.7V (constant)\n\nI_MAX = 20 mA (covers most of the YTB7 admissible current)\n\n-> R = 3.6k\n"
+		(exclude_from_sim no)
+		(at 182.118 208.788 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "07a3ae02-d24f-491d-a60d-ce8dfe0f5e72")
+	)
+	(text "TI datasheet:\nIn typical applications, values of 1.8 kΩ to 4.7 kΩ are used, depending on\nthe bus capacitance, I/O voltage, and the desired communication speed\n"
+		(exclude_from_sim no)
+		(at 113.03 63.246 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8fba45f5-81ea-4e73-8c21-79f156aef7ef")
+	)
 	(junction
 		(at 325.12 36.83)
 		(diameter 0)
@@ -2531,7 +2577,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 175.26) (xy 171.45 157.48)
+			(xy 171.45 204.47) (xy 171.45 157.48)
 		)
 		(stroke
 			(width 0)
@@ -2891,7 +2937,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 182.88) (xy 171.45 185.42)
+			(xy 171.45 212.09) (xy 171.45 218.44)
 		)
 		(stroke
 			(width 0)
@@ -5522,7 +5568,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 171.45 185.42 0)
+		(at 171.45 218.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5531,7 +5577,7 @@
 		(fields_autoplaced yes)
 		(uuid "8ec51981-f408-414e-acd1-0066bbb7b498")
 		(property "Reference" "#PWR04"
-			(at 171.45 191.77 0)
+			(at 171.45 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5540,7 +5586,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 171.45 190.5 0)
+			(at 171.45 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5548,7 +5594,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 171.45 185.42 0)
+			(at 171.45 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5557,7 +5603,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 185.42 0)
+			(at 171.45 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5566,7 +5612,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 171.45 185.42 0)
+			(at 171.45 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6614,7 +6660,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "1µF"
 			(at 165.1 180.3399 0)
 			(effects
 				(font
@@ -7187,7 +7233,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 171.45 179.07 0)
+		(at 171.45 208.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7195,7 +7241,7 @@
 		(dnp no)
 		(uuid "f552924d-470b-4386-9922-4ff0fc82eeb2")
 		(property "Reference" "R3"
-			(at 173.99 177.7999 0)
+			(at 173.99 207.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7203,8 +7249,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
-			(at 173.99 180.3399 0)
+		(property "Value" "3.9k"
+			(at 173.99 209.5499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7213,7 +7259,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 172.466 179.324 90)
+			(at 172.466 208.534 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7222,7 +7268,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 171.45 179.07 0)
+			(at 171.45 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7231,7 +7277,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 171.45 179.07 0)
+			(at 171.45 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
