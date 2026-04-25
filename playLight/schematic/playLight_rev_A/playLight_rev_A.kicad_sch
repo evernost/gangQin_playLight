@@ -5601,7 +5601,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C1525"
+		(property "MPN" "C1711"
 			(at 205.74 55.88 0)
 			(effects
 				(font
@@ -7800,7 +7800,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C4190"
+		(property "MPN" "C23018"
 			(at 171.45 208.28 0)
 			(effects
 				(font
