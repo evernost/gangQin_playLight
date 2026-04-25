@@ -2226,7 +2226,7 @@
 		)
 		(uuid "07a3ae02-d24f-491d-a60d-ce8dfe0f5e72")
 	)
-	(text "TI datasheet:\nIn typical applications, values of 1.8 kΩ to 4.7 kΩ are used, depending on\nthe bus capacitance, I/O voltage, and the desired communication speed\n"
+	(text "TI datasheet:\n\"In typical applications, values of 1.8 kΩ to 4.7 kΩ are used, depending on\nthe bus capacitance, I/O voltage, and the desired communication speed\"\n"
 		(exclude_from_sim no)
 		(at 113.03 63.246 0)
 		(effects

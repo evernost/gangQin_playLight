@@ -71,18 +71,12 @@ Section is TODO.
 ---
 
 ## Calibration / Tuning
-- Tune the bias voltage on $Q_5$ and $Q_{11}$
-- Tune the quiescent current 
-- Tune the overload threshold
-
+None.
 
 ---
 
 ## Known Issues / TODO
-
-- [ ] Make the bias point higher: 1.6V might clip too early
-- [ ] Add a reverse polarity protection
-
+None.
 
 ---
 
@@ -90,8 +84,17 @@ Section is TODO.
 
 | Revision | Date | Notes |
 |--------|------|-------|
-| Rev A | YYYY-MM-DD | Initial prototype |
-| Rev B | YYYY-MM-DD | Fixed grounding issue |
+| Rev A | 2026-04-25 | Initial prototype without MCU |
+| Rev B | YYYY-MM-DD | TBD |
+
+---
+
+## Tools
+Designed with KiCAD 9.0.7
+
+Designed on a 0.25mm grid (dimensions are driven by standard piano keyboard dimensions, which are in mm)
+LED nets routed on a 0.20mm grid to avoid clearance issues when connecting to the LP5036.
+
 
 ---
 
@@ -104,7 +107,7 @@ Links to other submodules in the repository:
 ---
 
 ## References
-- Elektor Voiced/Devoiced detector, April 1981 p.32-33
+- TI datasheet: LP5036
 
 
 
