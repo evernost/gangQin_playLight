@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "projectLib_playLight")(type "KiCad")(uri "${KIPRJMOD}/../../../libraries/footprints/projectLib_playLight.pretty")(options "")(descr ""))
+)
