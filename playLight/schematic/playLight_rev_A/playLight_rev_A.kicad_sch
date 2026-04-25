@@ -2276,7 +2276,7 @@
 	)
 	(rectangle
 		(start 59.69 209.55)
-		(end 107.95 237.49)
+		(end 107.95 246.38)
 		(stroke
 			(width 0)
 			(type default)
@@ -2323,7 +2323,7 @@
 	)
 	(text "JLCPCB tooling holes"
 		(exclude_from_sim no)
-		(at 85.09 224.536 0)
+		(at 85.598 229.108 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4646,6 +4646,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C3018544"
+			(at 269.24 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "48d74633-f52a-4a44-b557-6ab2a5a4ce20")
 		)
@@ -4745,7 +4754,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "3992d909-d626-41b6-96ed-0ba5b688b107")
@@ -4811,7 +4820,7 @@
 		(at 102.87 123.19 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -4928,6 +4937,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C3018544"
+			(at 287.02 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "77a1d2d5-9315-429c-b53e-007a626d0f75")
 		)
@@ -5010,6 +5028,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C3018544"
+			(at 251.46 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "1239192d-d8c7-4c72-aa8e-2fa0c55abbc3")
 		)
@@ -5032,6 +5059,70 @@
 			(project "playLight_rev_A"
 				(path "/3ef13e95-f986-4ee7-8906-03eb839b39a7"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 64.77 241.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "567dc3ae-ab56-460d-95ef-7bfb8535d258")
+		(property "Reference" "H4"
+			(at 67.31 240.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 67.31 242.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "projectLib_playLight:JLCPCB_Tooling_Hole"
+			(at 64.77 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 64.77 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "playLight_rev_A"
+				(path "/3ef13e95-f986-4ee7-8906-03eb839b39a7"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -5084,6 +5175,15 @@
 			)
 		)
 		(property "Description" "Triple LED RVB (Avago Technology)"
+			(at 287.02 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C3018544"
 			(at 287.02 168.91 0)
 			(effects
 				(font
@@ -5188,7 +5288,7 @@
 		(at 102.87 44.45 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -5501,6 +5601,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C1525"
+			(at 205.74 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9a4aa813-b0bb-4fa9-841d-2dd48b0ef47e")
 		)
@@ -5521,7 +5630,7 @@
 		(at 102.87 167.64 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -5767,6 +5876,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C4190"
+			(at 116.84 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "40aa1901-3c09-4af1-bd98-bc4b5769c499")
 		)
@@ -5829,6 +5947,15 @@
 			)
 		)
 		(property "Description" "Triple LED RVB (Avago Technology)"
+			(at 304.8 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C3018544"
 			(at 304.8 168.91 0)
 			(effects
 				(font
@@ -5935,7 +6062,7 @@
 		(at 102.87 135.89 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -6044,6 +6171,15 @@
 			)
 		)
 		(property "Description" "36-Channel 12-Bit PWM Ultra-low Quiescent Current I2C RGB LED Driver"
+			(at 189.23 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C701961"
 			(at 189.23 114.3 0)
 			(effects
 				(font
@@ -6257,6 +6393,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C3018544"
+			(at 322.58 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "6fa96c53-408a-4e17-9dc5-3beeae953747")
 		)
@@ -6290,7 +6435,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "9239f0e0-8ed1-4e48-aa0e-9d51abf7d663")
@@ -6357,7 +6502,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "93bbbdf6-98fc-46b8-a3b7-5fa42877adb5")
@@ -6539,6 +6684,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C3018544"
+			(at 251.46 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "61b31ca5-7fb9-4d7f-bfe3-aca83c2cb514")
 		)
@@ -6694,6 +6848,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C4190"
+			(at 129.54 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "889bcd53-9f00-4de1-9555-91d4951dd20f")
 		)
@@ -6756,6 +6919,15 @@
 			)
 		)
 		(property "Description" "Triple LED RVB (Avago Technology)"
+			(at 233.68 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C3018544"
 			(at 233.68 168.91 0)
 			(effects
 				(font
@@ -6838,6 +7010,15 @@
 			)
 		)
 		(property "Description" "Triple LED RVB (Avago Technology)"
+			(at 322.58 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C3018544"
 			(at 322.58 48.26 0)
 			(effects
 				(font
@@ -6994,6 +7175,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C1712"
+			(at 161.29 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9ffdbdf0-215d-4032-bc23-50444f9d49ac")
 		)
@@ -7015,7 +7205,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "c2042bf4-a1d9-4278-b256-2e26b50332b6")
@@ -7131,6 +7321,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C3018544"
+			(at 304.8 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "ff504714-f36a-4765-8e3a-9400b263f690")
 		)
@@ -7205,6 +7404,15 @@
 			)
 		)
 		(property "Description" "Triple LED RVB (Avago Technology)"
+			(at 269.24 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C3018544"
 			(at 269.24 168.91 0)
 			(effects
 				(font
@@ -7295,6 +7503,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C3018544"
+			(at 233.68 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "1740f8a8-8616-48a9-8504-0b8b34d134d9")
 		)
@@ -7327,7 +7544,7 @@
 		(at 102.87 36.83 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -7468,7 +7685,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "f2c3c656-428d-4225-93e0-be7dfcf0fd6f")
@@ -7575,6 +7792,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 171.45 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C4190"
 			(at 171.45 208.28 0)
 			(effects
 				(font
